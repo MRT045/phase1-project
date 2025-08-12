@@ -4,16 +4,16 @@ The goal is to explore and understand movie rating data identifying the highest-
 
 ### 2. Data Understanding
 The dataset contains information for 5 movies:
+Structure
+Rows: 5 (each row represents a unique movie or TV title)
 
-```python
-data = {
-    'tconst': ['tt10356526', 'tt10384606', 'tt1042974', 'tt1043726', 'tt1060240'],
-    'averageRating': [8.3, 8.9, 6.4, 4.2, 6.5],
-    'numVotes': [31, 559, 20, 50352, 21]
-}
 Columns:
 
-```
+tconst → Unique identifier for a title (e.g., IMDb ID)
+
+averageRating → Average user rating (scale: 1–10)
+
+numVotes → Number of votes received
 
 ### 3. Data Preparation
 The data is structured in a pandas DataFrame. Initial steps include loading the data and inspecting for missing values.

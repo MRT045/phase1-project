@@ -5,7 +5,7 @@ The goal is to explore and understand movie rating data identifying the highest-
 ### 2. Data Understanding
 The dataset contains information for 5 movies:
 
-Structure
+### STRUCTURE
 
 
 Rows:

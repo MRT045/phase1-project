@@ -7,6 +7,7 @@ The dataset contains information for 5 movies:
 
 Structure
 Rows:
+
 5 (each row represents a unique movie or TV title)
 
 Columns:
